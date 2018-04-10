@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.head {
+	padding: 2px;
+	width: auto;
+	height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+	background-color: #1D8DF1;
+    border-bottom: 1px solid #1D8DF1;
+}
+
+.content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 128px;
+    top: 40px;
+    overflow: auto;
+	padding: 15px;
+    font-size: 12px;
+    background: rgba(250,250,251,.98);
+}
+
+.sended-message {
+    position: relative;
+    float: right;
+    padding: 5px;
+    max-width: 90%;
+    min-width: 60%;
+}
+
+.message-text {
+    padding: 10px;
+    border-radius: 6px;
+    word-wrap: break-word;
+    color: #fff;
+    background-color: #00a4e6;
+}
+
+.sended-message:before {
+    content: "";
+    background-color: #00a4e6;
+    height: 10px;
+    width: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+.content p{
+    margin: 0;
+}
+
+.re-message {
+    position: relative;
+    float: left;
+    padding: 5px;
+    max-width: 90%;
+    min-width: 60%;
+}
+
+.re-message:before {
+    content: "";
+    background-color: #00a4e6;
+    height: 10px;
+    width: 10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+
+.timer {
+    color: #999;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.message {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 54px;
+    height: 74px;
+    display: flex;
+}
+
+.message-input {
+    flex: 1;
+    padding: 10px;
+    border-left: 0;
+    border-right: 0;
+    resize:none;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 12px 15px;
+    background: rgba(250,250,251,.98);
+    border-radius: 0 0 3px 3px;
+    display: flex;
+    align-items: center;
+}
+
+.actions-wrapper {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+}
+
+.send-btn {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    padding: 0 15px;
+    background: #00aef0;
+    font-size: 12px;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
